@@ -2,6 +2,7 @@
 
 /*Default theme */
 html {
+  --backgroundheader:white;
   --backgroundfooter:#DEE1E6;
 }
 
@@ -9,7 +10,13 @@ html {
 /* Container */
 
 /* Header */
+#logo {
+  width: 80%;
+}
 
+.header {
+  background-color: var(--backgroundheader);
+}
 /* Navigation Bar */
 
 /* Contents */
