@@ -4,8 +4,16 @@
 html {
   --backgroundheader:white;
   --backgroundfooter:#DEE1E6;
+
+  /*Navigation Bar Colour Variables */
+  --navactive:lightblue;
+
 }
 
+/* Set the background color of body to tan */
+body {
+  background-color: tan !important;
+}
 
 /* Container */
 
@@ -18,7 +26,9 @@ html {
   background-color: var(--backgroundheader);
 }
 /* Navigation Bar */
-
+.navbar .active {
+  color: var(--navactive) !important;
+}
 /* Contents */
 
 /* Footer */
